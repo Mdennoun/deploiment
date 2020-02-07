@@ -29,15 +29,19 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         // Set Delegates
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
+        
+        locationManager.startUpdatingLocation()
         
         // Set Register Cell
         self.collectionView.register(UINib(nibName: "HomeCell", bundle: nil), forCellWithReuseIdentifier: "HomeCell")
         
         self.setupGrid()
         self.weathers = self.viewModel.weathers
+        
        
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
@@ -94,9 +98,12 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func refreshWeather(_ sender: Any) {
+
+        self.weathers = []
         if CLLocationManager.locationServicesEnabled() {
             locationManager.startUpdatingLocation()
         } else {
+            
             self.getWeather()
         }
     }
