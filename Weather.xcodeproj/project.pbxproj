@@ -28,6 +28,7 @@
 		6D977D3A22F1B3E1009A93A3 /* HomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D977D3922F1B3E1009A93A3 /* HomeProtocol.swift */; };
 		6D977D3C22F1B736009A93A3 /* DBWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D977D3B22F1B736009A93A3 /* DBWeather.swift */; };
 		6D977D3E22F1D499009A93A3 /* HomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D977D3D22F1D499009A93A3 /* HomeDetailsViewController.swift */; };
+		95F9C96D23D21236003051C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95F9C96C23D21236003051C3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		6D977D3922F1B3E1009A93A3 /* HomeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocol.swift; sourceTree = "<group>"; };
 		6D977D3B22F1B736009A93A3 /* DBWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBWeather.swift; sourceTree = "<group>"; };
 		6D977D3D22F1D499009A93A3 /* HomeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailsViewController.swift; sourceTree = "<group>"; };
+		95F9C96C23D21236003051C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9940D54A705386EC2F72E3EF /* Pods-Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.debug.xcconfig"; path = "Target Support Files/Pods-Weather/Pods-Weather.debug.xcconfig"; sourceTree = "<group>"; };
 		AC9F1C06A2EBCD02A1B3BC2A /* Pods-Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.release.xcconfig"; path = "Target Support Files/Pods-Weather/Pods-Weather.release.xcconfig"; sourceTree = "<group>"; };
 		F7F96EEB151FE04A8ABAB799 /* Pods_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +173,7 @@
 				6D977CD522F036E7009A93A3 /* Default-568h@2x.png */,
 				6D977CAB22F034C4009A93A3 /* LaunchScreen.storyboard */,
 				6D977CAE22F034C4009A93A3 /* Info.plist */,
+				95F9C96C23D21236003051C3 /* GoogleService-Info.plist */,
 				6D977D3522F1AF14009A93A3 /* Weather.xcdatamodeld */,
 			);
 			path = Ressources;
@@ -350,7 +353,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
-				ORGANIZATIONNAME = "Toto";
+				ORGANIZATIONNAME = Toto;
 				TargetAttributes = {
 					6D977C9E22F034C3009A93A3 = {
 						CreatedOnToolsVersion = 10.3;
@@ -395,6 +398,7 @@
 				6D977CD622F036E7009A93A3 /* Default-568h@2x.png in Resources */,
 				6D977CAA22F034C4009A93A3 /* Assets.xcassets in Resources */,
 				6D977CA822F034C3009A93A3 /* Home.storyboard in Resources */,
+				95F9C96D23D21236003051C3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
