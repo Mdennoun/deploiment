@@ -32,7 +32,7 @@ class HomeViewController: UIViewController {
         // Set Delegates
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
-        
+        locationManager.startUpdatingLocation()
         // Set Register Cell
         self.collectionView.register(UINib(nibName: "HomeCell", bundle: nil), forCellWithReuseIdentifier: "HomeCell")
         
