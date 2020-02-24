@@ -29,6 +29,8 @@ class HomeViewController: UIViewController,CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+      
+        
         // Set Delegates
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
